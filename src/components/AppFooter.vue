@@ -74,6 +74,7 @@ export default {
   footer{
     width: 100%;
     background-image: url("../assets/img/footer-bg.jpg");
+    display: flex;
     .footer-t{
       width: 70%;
       margin: 0 auto;

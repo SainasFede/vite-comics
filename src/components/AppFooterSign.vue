@@ -31,13 +31,15 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-  width: 100%;
   background-color: #303030;
   button{
     padding: 10px;
     border: 2px solid #0282f9;
     color: white;
     background-color: #303030;
+    &:hover{
+      cursor: pointer;
+    }
   }
   .footer-b{
       width: 70%;

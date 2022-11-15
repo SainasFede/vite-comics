@@ -99,16 +99,23 @@ export default {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    height: 150px;
+    .logo:hover{
+      cursor: pointer;
+    }
     nav{
       ul{
         display: flex;
+        height: 100%;
         li{
           margin: 15px;
           list-style: none;
+          height: 100%;
           a{
             text-decoration: none;
             display: inline-block;
             color: #303030;
+            font-size: 0.8rem;
           }
         }
       }

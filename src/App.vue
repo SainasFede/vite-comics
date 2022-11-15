@@ -1,19 +1,19 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import ContentIgnoto from './components/ContentIgnoto.vue';
 import AppFooterSign from './components/AppFooterSign.vue';
+import AppBlu from './components/AppBlu.vue';
 
 export default {
   name: 'App',
   components:{
     AppHeader,
     ContentIgnoto,
-    AppMain,
     AppFooter,
-    AppFooterSign
+    AppFooterSign,
+    AppBlu
   }
 }
 </script>
@@ -21,7 +21,7 @@ export default {
 <template>
   <AppHeader />
   <ContentIgnoto />
-  <AppMain />
+  <AppBlu />
   <AppFooter />
   <AppFooterSign />
 </template>
