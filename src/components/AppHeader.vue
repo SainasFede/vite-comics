@@ -99,7 +99,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    height: 150px;
+    height: 120px;
     .logo:hover{
       cursor: pointer;
     }

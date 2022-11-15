@@ -31,6 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 footer{
+  height: 120px;
   background-color: #303030;
   button{
     padding: 10px;
@@ -48,6 +49,7 @@ footer{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: 100%;
       .link-b{
         display: flex;
         align-items: center;
