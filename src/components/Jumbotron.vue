@@ -19,15 +19,15 @@ export default {
   background-size: cover ;
   position: relative;
   button{
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 1rem;
     color: white;
     background-color: #0282f9;
     border: none;
     cursor: pointer;
     position: absolute;
-    left: 100px;
-    buttom: -50px;
+    left: 350px;
+    bottom: -20px;
   }
  }
 </style>
