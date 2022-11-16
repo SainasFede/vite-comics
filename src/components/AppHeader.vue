@@ -78,13 +78,11 @@ export default {
       <img src="/dc-logo.png" alt="DC">
     </div>
   
-    <nav>
       <ul>
         <li 
         v-for="(link, index) in menu"
         :key="index"><a href="link.href"><h4>{{link.text}}</h4></a> </li>
       </ul>
-    </nav>
 
   </header>
 
@@ -98,7 +96,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     height: 120px;
     .logo:hover{
       cursor: pointer;
@@ -107,18 +104,22 @@ export default {
         display: flex;
         height: 100%;
         li{
-          padding: 0 15px;
+          padding: 10px 15px;
           list-style: none;
           height: 100%;
+          display: flex;
+          align-items: center;
           &:hover{
-            border-bottom: 4px solid blue;
+            border-bottom: 4px solid #0282f9;
           }
           a{
             text-decoration: none;
             display: inline-block;
             color: #303030;
             font-size: 0.8rem;
-            height: 100%;
+            &:hover{
+              color: #0282f9;
+            }
           }
         }
       }
