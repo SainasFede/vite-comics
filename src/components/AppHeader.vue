@@ -103,23 +103,25 @@ export default {
     .logo:hover{
       cursor: pointer;
     }
-    nav{
       ul{
         display: flex;
         height: 100%;
         li{
-          margin: 15px;
+          padding: 0 15px;
           list-style: none;
           height: 100%;
+          &:hover{
+            border-bottom: 4px solid blue;
+          }
           a{
             text-decoration: none;
             display: inline-block;
             color: #303030;
             font-size: 0.8rem;
+            height: 100%;
           }
         }
       }
     }
-  }
 
 </style>

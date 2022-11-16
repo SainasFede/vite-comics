@@ -2,25 +2,28 @@
 
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
-import ContentIgnoto from './components/ContentIgnoto.vue';
+import Jumbotron from './components/Jumbotron.vue';
 import AppFooterSign from './components/AppFooterSign.vue';
 import AppBlu from './components/AppBlu.vue';
+import DCSeries from './components/DCSeries.vue';
 
 export default {
   name: 'App',
   components:{
     AppHeader,
-    ContentIgnoto,
+    Jumbotron,
     AppFooter,
     AppFooterSign,
-    AppBlu
+    AppBlu,
+    DCSeries
   }
 }
 </script>
 
 <template>
   <AppHeader />
-  <ContentIgnoto />
+  <Jumbotron />
+  <DCSeries />
   <AppBlu />
   <AppFooter />
   <AppFooterSign />

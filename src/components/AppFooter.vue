@@ -74,24 +74,30 @@ export default {
   footer{
     width: 100%;
     background-image: url("../assets/img/footer-bg.jpg");
+    background-size: cover;
     display: flex;
+    height: 400px;
+    align-items: center;
     .footer-t{
+      background-image: url(../assets/img/dc-logo-bg.png);
+      background-position: right;
+      background-repeat: no-repeat;
       width: 70%;
       margin: 0 auto;
-      padding: 20px;
+      padding: 35px;
       display: flex;
       .link-f{
         margin-right: 30px;
         h4{
-          margin-bottom: 10px;
+          margin-bottom: 15px;
           color: white;
         };
         nav{
           ul{
             list-style: none;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             li{
-              padding: 2px;
+              padding: 4px 0px;
               a{
                 text-decoration: none;
                 color: #797979;
